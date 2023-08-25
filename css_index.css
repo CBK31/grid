@@ -1,0 +1,51 @@
+.container_my{
+    display: grid;
+    grid-template: 400px 130px 150px 20px / 320px 200px 150px 50px;
+
+gap: 7px; 
+width: fit-content;
+}
+
+.container_my > div {
+    background-color: aliceblue;
+
+}
+
+#alo1 {
+   grid-row-start: 1; 
+   grid-row-end: 2;
+   grid-column-start: 1;
+   grid-column-end: 1;
+   background-color: red;
+}
+
+#alo2 {
+    grid-area: 1 / 2 / 2 / 5;
+    background-color: rgb(0, 82, 0);
+ }
+
+ #alo3 {
+    grid-row: span 2 ;
+    background-color: rgb(106, 0, 255);
+ }
+ #alo5 {
+ background-color: blue;
+ }
+ #alo4 {
+    grid-row: span 2 ;
+    grid-column: span 2 ;
+    background-color: rgb(255, 204, 0);
+ }
+ #alo6 {
+    grid-row: span 2 ;
+  background-color: brown;
+ }
+ #alo7 {
+    background-color: rgb(77, 255, 0);
+    } 
+#alo8 {
+    background-color: rgb(255, 1, 251);
+     }
+#alo9 {
+    background-color: rgb(6, 255, 247);
+     }
